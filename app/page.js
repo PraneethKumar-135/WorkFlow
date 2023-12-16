@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from './addusecaseform/newform'
+import Form from './addusecaseform/UpdatedForm'
 
 const page = () => {
   return (

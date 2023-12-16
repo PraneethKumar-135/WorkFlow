@@ -8,6 +8,7 @@ const form = () => {
         <div className='text-black text-2xl font-semibold leading-normal bg-white px-4 py-4 w-[100%] h-14 flex items-center'>Usecase </div>
         <div className='text-black text-2xl font-semibold leading-normal bg-white px-4 py-4 w-[100%] h-14 flex items-center'>Basic Details</div>
       </div>
+      
       <div className='flex flex-col w-[100%] items-start gap-2.5 shrink-0'>
         <form>
           <div className='flex gap-3 ml-10'>
