@@ -29,7 +29,7 @@ const newform = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     const Data = [Details, MockDev, ActualDev, CiCdTest, Stage, Publish]
-    console.log(Details);
+    console.log(Data);
   }
 
   return (
