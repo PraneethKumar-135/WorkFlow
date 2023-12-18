@@ -5,7 +5,7 @@ const newform = () => {
 
   const details = { assignto: '', describe: '', select1: '', date1: '', comm1: '', select2: '', date2: '', comm2: '', select3: '', date3: '', comm3: '' }
   const Second = { Sassignto: '', Sdescribe: '', Sselect1: '', Sdate1: '', Scomm1: '', Sselect2: '', Sdate2: '', Scomm2: '', Sselect3: '', Sdate3: '', Scomm3: '', Sselect4: '', Sdate4: '', Scomm4: '' };
-  const Third = { Tassignto: '', Tdescribe: '', Tselect1: '', Tdate1: '', Tcomm1: '', Tselect2: '', Tdate2: '', Tcomm2: '', Tselect3: '', Tdate3: '', Tcomm3: '', Tselect4: '', Tdate4: '', Tcomm4: '', Tselect5: '', Tdat5: '', Tcomm5: '', Tselect6: '', Tdate6: '', Tcomm6: '', Tselect7: '', Tdate7: '', Tcomm7: '', Tselect8: '', Tdate8: '', Tcomm8: '' };
+  const Third = { Tassignto: '', Tdescribe: '', Tselect1: '', Tdate1: '', Tcomm1: '', Tselect2: '', Tdate2: '', Tcomm2: '', Tselect3: '', Tdate3: '', Tcomm3: '', Tselect4: '', Tdate4: '', Tcomm4: '', Tselect5: '', Tdate5: '', Tcomm5: '', Tselect6: '', Tdate6: '', Tcomm6: '', Tselect7: '', Tdate7: '', Tcomm7: '', Tselect8: '', Tdate8: '', Tcomm8: '' };
   const Fourth = { Fassignto: '', Fdescribe: '', Fselect1: '', Fdate1: '', Fcomm1: '', Fselect2: '', Fdate2: '', Fcomm2: '', Fselect3: '', Fdate3: '', Fcomm3: '', Fselect4: '', Fdate4: '', Fcomm4: '', Fselect5: '', Fdate5: '', Fcomm5: '', Fselect6: '', Fdate6: '', Fcomm6: '' };
   const Fifth = { Fiassignto: '', Fidescribe: '', Fiselect1: '', Fidate1: '', Ficomm1: '', Fiselect2: '', Fidate2: '', Ficomm2: '', Fiselect3: '', Fidate3: '', Ficomm3: '', Fiselect4: '', Fidate4: '', Ficomm4: '' };
   const Six = { Siassignto: '', Sidescribe: '', Siselect1: '', Sidate1: '', Sicomm1: '', Siselect2: '', Sidate2: '', Sicomm2: '' };
@@ -414,7 +414,7 @@ const newform = () => {
 
               <div className='flex flex-col gap-2 w-[25%]'>
                 <label className='w-[100%]'>Start - End date</label>
-                <input className='w-[100%] px-3 py-1 border border-neutral-300' type='date' name='Tdat5' value={ActualDev.Tdat5} onChange={setOnchange}></input>
+                <input className='w-[100%] px-3 py-1 border border-neutral-300' type='date' name='Tdat5' value={ActualDev.Tdate5} onChange={setOnchange}></input>
               </div>
 
               <div className='flex flex-col gap-2 w-[25%]'>
